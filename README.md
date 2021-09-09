@@ -10,3 +10,7 @@ The title is concise and captivating.
 https://github.com/yoojeenkim/Horiseon
 
 https://yoojeenkim.github.io/Horiseon/
+
+Here is a sample of the website:
+
+![website](./assets/images/websiteimage.png)
