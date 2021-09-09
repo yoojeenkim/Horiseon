@@ -1,9 +1,10 @@
-* {
+/* Universal element */
+* { 
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* Set background color of body to white. */
 body {
     background-color: #d9dcd6;
 }
@@ -15,6 +16,7 @@ header {
     color: #ffffff;
 }
 
+/* This is for the nav bar and we pushed it all the way to the right here. */
 header section {
     padding-top: 15px;
     margin-right: 20px;
@@ -28,10 +30,12 @@ header h1 {
     font-size: 48px;
 }
 
+/*  */
 header ul {
     list-style-type: none;
 }
 
+/* Made all the nav links display inline instead of blocks. */
 header li {
     display: inline-block;
     margin-left: 25px;
@@ -53,6 +57,7 @@ footer h2 {
     font-size: 20px;
 }
 
+/* Class elements */
 .hero {
     height: 800px;
     width: 100%;
@@ -61,11 +66,13 @@ footer h2 {
     background-position: center;
 }
 
+/* Anything with this float text element will float left with a right margin of 25px. */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Anything with this float text element will float right with a left margin of 25px. */
 .float-right {
     float: right;
     margin-left: 25px;
@@ -77,6 +84,7 @@ footer h2 {
     margin-left: 20px;
 }
 
+/* Articles which have id links to each of them, and appropriate styling to all three. */
 .content article {
     margin-bottom: 20px;
     padding: 50px;
